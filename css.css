@@ -1,0 +1,219 @@
+body {
+    background-color: #fdf8e5;
+}
+
+.header {
+    grid-area: header;
+    box-shadow: 1px 1px 4px black;
+    background-image: url("headerbg.png");
+    height: 80px;
+
+}
+
+.menu {
+    grid-area: menu;
+    width: 550px;
+}
+
+#unknown {
+    margin-top: 1100px;
+    margin-left: -1200px;
+}
+
+.main {
+    grid-area: main;
+    background-image: url(footer3.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+
+}
+
+
+
+
+.footer {
+    grid-area: footer;
+    height: 200px;
+    background-image: url(footer2.jpg);
+    background-position: 150% 50%;
+}
+
+#search {
+    float: left;
+    margin: 40px;
+    box-shadow: 2px 2px 4px black;
+    background-color: floralwhite;
+    border: none;
+    height: 26px;
+    color: darkgray;
+    text-align: center;
+}
+
+.nav {
+    grid-area: nav;
+    height: 40px;
+
+
+
+}
+
+.navi {
+    list-style: none;
+    float: right;
+    width: 100%;
+    color: black;
+    font-size: 30px;
+    text-shadow: 1px 1px 4px black;
+
+
+
+}
+
+
+
+
+.navi > li:nth-child(1) {
+    width: 20%;
+    height: 60px;
+    float: left;
+    background-color: yellow;
+
+}
+
+
+
+.navi > li:nth-child(2) {
+    background-color: green;
+    float: left;
+    width: %;
+    height: 60px;
+    width: 20%;
+    transform: rotate(1deg);
+
+
+}
+
+.navi > li:nth-child(3) {
+    background-color: purple;
+    float: left;
+    height: 60px;
+    width: 20%;
+    transform: rotate(1deg);
+
+}
+
+.navi > li:nth-child(4) {
+    background-color: yellow;
+    float: left;
+    height: 60px;
+    width: 20%;
+    color: black;
+    transform: rotate(1deg);
+
+}
+
+.navi > li:nth-child(5) {
+    width: 20%;
+    height: 60px;
+    float: left;
+    background-color: green;
+
+}
+
+
+
+#hotelimgs {}
+
+.grid-container {
+    display: grid;
+    box-shadow: 1px 1px 4px black;
+    grid-template-areas:
+        'header header header header header header'
+        'nav nav nav nav nav nav'
+        'menu main main main main main'
+        'menu main main main main main'
+        'menu main main main main main'
+        'menu main main main main main'
+        'menu main main main main main'
+        'menu main main main main main'
+        'menu main main main main main'
+        'menu main main main main main'
+        'menu main main main main main'
+        'menu main main main main main'
+        'menu main main main main main'
+        'menu main main main main main'
+        'menu main main main main main'
+        'menu main main main main main'
+        'menu main main main main main'
+        'menu main main main main main'
+        'menu main main main main main'
+        'menu main main main main main'
+        'menu main main main main main'
+        'menu main main main main main'
+        'menu main main main main main'
+        'menu main main main main main'
+        'menu main main main main main'
+        'menu main main main main main'
+        'footer footer footer footer footer footer';
+
+    background-image: url(ss.png);
+    background-repeat: no-repeat;
+    background-position: 40% 22%;
+    background-size: 1850px;
+    grid-gap: 1px;
+    height: 1820px;
+}
+
+.grid-container > div {
+
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+#logo {
+    float: left;
+    height: 80px;
+    width: 80px;
+    margin-left: 24%;
+
+}
+
+.headNav {
+    float: right;
+    margin-right: 30px;
+    margin-top: 20px;
+    list-style: none;
+
+}
+
+.headNav > li {
+    float: left;
+    margin: 10px;
+    transform: rotate(10deg);
+
+
+}
+
+.menu > h1,
+    {
+    font-size: 25px;
+    float: left;
+
+}
+
+.img {
+    height: 110px;
+    width: 150px;
+    border-radius: 50%;
+    transition: border-radius 0.5s;
+}
+
+.img:hover {
+    border-radius: 0;
+}
+
+
+#block {
+    display: block;
+}
